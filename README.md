@@ -16,6 +16,7 @@ No need to do this if the device file already exists
 1) sudo su
 2) make clean
 3) rmmod BM_Driver
-Do this step only if there's some error with the device file, like an incorrect Major number
+
+(Do this step only if there's some error with the device file, like an incorrect Major number)
 4) rm /dev/BMDriver
 After this, compile the driver as normal
