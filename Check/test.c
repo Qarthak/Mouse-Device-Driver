@@ -9,7 +9,6 @@
 int main(int argc, char const *argv[])
 {
 	assert(argc >1); const char *str=argv[1];
-	// char *str="Hello";
 	char buf[100];
 	char i=0;
 	memset(buf,0,100);
