@@ -2,7 +2,7 @@
 A Linux device driver to adjust the brightness of the screen based on mouse events. A left click decreases brightness and a right click increases brightness.
 
 ## Introduction:
-Devices are generally represented by their driver files in the */dev* directory. Here, we attempt to add our own custom driver for our mouse input device. 
+Devices are generally represented by their driver files in the */dev* directory. Here, we've created a custom driver for our mouse. 
 
 Device files are created using the ```mknod``` system call.
 
