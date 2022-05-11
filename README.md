@@ -12,7 +12,7 @@ mknod path type major minor
 
 - *Path* - Path where the file is to be created.
 - *Type* - 'c' or 'b' to indicate whether the device is a character device or a block device.
-- *Major, Minor* - The major and minor number of the device. Major number identifies the device driver. Minor number is used to identify the specific instance of the device (if there is more than one). ```ls – l``` is used to find these numbers.
+- *Major, Minor* - The major and minor number of the device. Major number identifies the device driver and minor number is used to identify the specific instance of the device. ```ls – l``` is used to find these numbers.
 
 These files are plain files which are associated with our module with their major number. They can be deleted like regular files with
 
