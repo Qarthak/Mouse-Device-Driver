@@ -6,9 +6,6 @@ The driver read mouse input using kernel level functions from /dev/input/mice wh
 
 ## Compile the driver by running the following commands:
 1) sudo su
-
-(No need to do this if the device file already exists)
-
 2) make mknd 
 3) make
 4) insmod BM_Driver.ko
@@ -18,8 +15,5 @@ The driver read mouse input using kernel level functions from /dev/input/mice wh
 1) sudo su
 2) make clean
 3) rmmod BM_Driver
-
-(Do this step only if there's some error with the device file, like an incorrect Major number)
-
 4) rm /dev/BMDriver
 After this, compile the driver as normal
