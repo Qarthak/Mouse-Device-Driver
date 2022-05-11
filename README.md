@@ -56,4 +56,5 @@ The driver read mouse input using kernel level functions from /dev/input/mice wh
 ```
 After this, compile the driver as normal
 
-### Debug messages are added to the kernel ring buffer and can be read using the dmesg command. To limit the number of messages to a reasonable amount, say 50, use dmesg | tail -50
+## Debug
+Debug messages are added to the kernel ring buffer and can be read using the dmesg command. To limit the number of messages to a reasonable amount, say 50, use dmesg | tail -50
